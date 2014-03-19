@@ -60,10 +60,10 @@ span {
 }
 
 .hidden {
-  visibility: hidden;
+  display: none;
 }
 
-.hidden:hover {
-  visibility: visible;
+li:hover .hidden{
+  display: inline;
   position: right;
 }
