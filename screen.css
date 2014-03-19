@@ -1,13 +1,14 @@
 body {
-  color: #00aeba;
-  background: #00aeba;
+  font-family: sans-serif;
+  color: #0cc;
+  background: #33aabb;
   background-image: url("http://www.amorera.org/images/above-clouds.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
 
 a {
-    color: #055;
+    color: #057;
     text-decoration: none;
 }
 
@@ -16,15 +17,15 @@ a:hover {
 }
 
 article {
-    width: 440px;
+    width: 350px;
     margin: 3em auto;
-    padding: 1em;    border: solid 2px rgba(255, 255, 255, 0.5);
+    padding: 1em;    
+    border: solid 2px rgba(255, 255, 255, 0.5);
     border-radius: 1em;
     box-shadow: 0 0 1em #fcc;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.35);
     text-align: center;
     transition: 1s;
-
 }
 
 article:hover {
@@ -33,9 +34,10 @@ article:hover {
 
 article h1 {
     margin: 0.3em;
-    font-size: 1.1em;
-    font-weight: bold;
+    font-size: 1.3em;
+    font-weight: normal;
     font-family: serif;
+    color: #0cc;
 }
 
 h1 {
@@ -45,6 +47,7 @@ h1 {
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 li {
