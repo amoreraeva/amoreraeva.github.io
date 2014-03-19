@@ -1,4 +1,5 @@
 body {
+  width: 960px;
   font-family: sans-serif;
   color: #0cc;
   background: #33aabb;
@@ -61,5 +62,5 @@ span {
 
 li:hover .hidden{
   display: block;
-  position: right 0;
+  position: right;
 }
