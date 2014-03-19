@@ -1,4 +1,6 @@
 body {
-background: aqua;
-color: pink;
+  background: aqua;
+  background-image: url("http://www.wallpapershunt.com/user-content/uploads/wall/o/99/Above-White-Clouds-Widescreen-Wallpaper-WallpapersHunt.com-.jpg");
+  background-size: cover;
+  color: pink;
 }
