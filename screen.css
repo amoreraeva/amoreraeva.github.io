@@ -1,16 +1,30 @@
 body {
-  color: #c55;
+  color: #00aeba;
   background-image: url("http://www.amorera.org/images/above-clouds.jpg");
   background-attachment: fixed;
   background-size: cover;
+  border
+}
+
+article {
+    width: 440px;
+    margin: 5em auto;
+    padding: 1em;    border: solid 2px rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    box-shadow: 0 0 1em #000;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    transition: 2s;
+
 }
 
 h1 {
   font-size: 1em;
-  color: #b33;
+  color: #ff7193;
 }
 
 li {
   font-size: 0.9em;
-  color: #f77;
+  color: #0f7878;
 }
