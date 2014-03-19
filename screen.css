@@ -1,5 +1,13 @@
 body {
-  background-image: url("http://www.wallpapershunt.com/user-content/uploads/wall/o/99/Above-White-Clouds-Widescreen-Wallpaper-WallpapersHunt.com-.jpg");
+  background-image: url
+  ("
+  www.wallpapershunt.com/user-content/uploads/wall/o/99/Above-White-Clouds-Widescreen-Wallpaper-WallpapersHunt.com-.jpg
+  "
+  );
   background-size: cover;
   color: a55;
+}
+
+h1 {
+  font-size: 0.7em;
 }
