@@ -51,10 +51,6 @@ li {
   transition: 0.5s;
 }
 
-li:hover {
- transform: rotate(-3deg); 
-}
-
 span {
   display: block;
 }
