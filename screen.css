@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color: #057;
+    color: #0f7878;
     text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ article {
 }
 
 article:hover {
-    transform: rotate(33deg);
+    transform: rotate(3deg);
 }
 
 article h1 {
@@ -52,5 +52,5 @@ ul {
 
 li {
   font-size: 0.9em;
-  color: #0f7878;
+  color: #099;
 }
