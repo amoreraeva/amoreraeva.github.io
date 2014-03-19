@@ -61,4 +61,5 @@ span {
 
 li:hover .hidden{
   display: block;
+  position: right 0;
 }
