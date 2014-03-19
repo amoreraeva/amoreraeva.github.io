@@ -25,11 +25,6 @@ article {
     box-shadow: 0 0 1em #fcc;
     background-color: rgba(255, 255, 255, 0.35);
     text-align: center;
-    transition: 1s;
-}
-
-article:hover {
-    transform: rotate(-3deg);
 }
 
 article h1 {
@@ -53,4 +48,22 @@ ul {
 li {
   font-size: 0.9em;
   color: #099;
+  transition: 0.5s;
+}
+
+li:hover {
+ transform: rotate(-3deg); 
+}
+
+span {
+  display: block;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.hidden:hover {
+  visibility: visible;
+  position: right;
 }
