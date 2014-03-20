@@ -9,9 +9,9 @@ body {
     url("http://www.amorera.org/images/above-clouds.jpg")
     ;
   background-repeat: no-repeat;
-  background-attachment: fixed, fixed, scroll;
+  background-attachment: fixed, fixed, fixed;
   background-size: auto, auto, cover;
-  background-position: left, right, center;
+  background-position: left, center, center;
 }
 
 a {
