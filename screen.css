@@ -14,13 +14,13 @@ body {
 }
 
 a {
-    color: #0cc;
+    color: #0dd;
     font-style: italic;
     text-decoration: none;
-    transition: 1s;
 }
 
 a:hover {
+    color: #fdd;
     text-decoration: underline;
 }
 
@@ -56,13 +56,13 @@ ul {
 li {
   font-size: 0.9em;
   color: #0cc;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 span {
   display: block;
 }
 
-li:hover a {
+li:hover {
    transform: rotate(5deg);
 }
