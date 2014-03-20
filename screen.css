@@ -5,15 +5,17 @@ body {
   background: #33aabb;
   background-image:
     url("/images/amorera-cloud-55.png"),
+    url("http://www.amorera.org/images/amorera-label-223.png");
     url("http://www.amorera.org/images/above-clouds.jpg")
     ;
   background-repeat: no-repeat;
-  background-attachment: scroll, fixed;
-  background-size: auto, cover;
+  background-attachment: fixed, fixed, scroll;
+  background-size: auto, auto, cover;
+  background-position: left, right, center;
 }
 
 a {
-    color: #0ba;
+    color: #0cc;
     font-style: italic;
     text-decoration: none;
 }
@@ -53,16 +55,12 @@ ul {
 
 li {
   font-size: 0.9em;
-  color: #099;
+  color: #0cc;
   transition: 0.5s;
 }
 
 span {
   display: block;
-}
-
-.amorera:hover {
-  background-image: url("http://www.amorera.org/images/amorera-label-223.png");
 }
 
 li:hover .hidden{
