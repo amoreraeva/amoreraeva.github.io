@@ -10,17 +10,19 @@ body {
     ;
   background-repeat: no-repeat;
   background-size: auto, auto, auto, cover;
-  background-position: center top;
+  background-position: left top, top center, right top, center;
 }
 
 a {
     color: #0cc;
     font-style: italic;
     text-decoration: none;
+    transition: 1s;
 }
 
 a:hover {
     text-decoration: underline;
+    transform: rotate(5deg);
 }
 
 article {
