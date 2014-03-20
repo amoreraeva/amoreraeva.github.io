@@ -72,5 +72,8 @@ footer {
   font-size: 0.8em;
   position: center bottom;
   text-align: center;
-  font-style: normal;
+}
+
+address {
+  font-style: normal;  
 }
