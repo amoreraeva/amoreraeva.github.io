@@ -2,10 +2,10 @@ body {
   width: 960px;
   font-family: sans-serif;
   color: #0cc;
-  background: #33aabb;
+  background: #33ddee;
   background-image:
     url("/images/amorera-cloud-55.png"),
-    url("http://www.amorera.org/images/amorera-label-223.png");
+    url("http://www.amorera.org/images/amorera-label-223.png"),
     url("http://www.amorera.org/images/above-clouds.jpg")
     ;
   background-repeat: no-repeat;
