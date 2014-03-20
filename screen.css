@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    color: #0dd;
+    color: #0bb;
     font-style: italic;
     text-decoration: none;
 }
@@ -68,7 +68,9 @@ li:hover {
 }
 
 footer {
-  color: teal;
+  color: #0aa;
   font-size: 0.8em;
   position: center bottom;
+  text-align: center;
+  font-style: normal;
 }
